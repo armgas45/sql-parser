@@ -16,5 +16,5 @@ data class AbstractQuery(
     var nestedQueries: MutableList<AbstractQuery> = ArrayList(),
     var limit: Int? = null,
     var offset: Int? = null,
-    var type: QueryType? = null
+    var type: QueryType
 )
